@@ -1,27 +1,28 @@
 * {
     padding: 0;
     margin: 0;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    font-family: Georgia, serif;
 }
 
 .header {
-    padding: 16px;
-    margin: 6px;
-    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    background-color: #32a1ce;
+    padding: 1.5vh;
+    height: 20vh;
 }
 
 .headerText {
-    font-size: 48px;
+    font-size: 5vh;
+    font-weight: bolder;
 }
 
 section {
     display: flex;
+    justify-content: center;
     gap: 32px;
+    height: 70vh;
 }
 
 .player {
@@ -30,4 +31,29 @@ section {
     align-items: center;
     gap: 8px;
     margin: 32px;
+}
+
+.playerHeader {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.score {
+    font-size: 26px;
+}
+
+img {
+    border-radius: 6px;
+    border: thick double #32a1ce;
+    width: 10vh;
+}
+
+.images {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
 }
