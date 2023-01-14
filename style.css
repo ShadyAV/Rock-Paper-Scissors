@@ -78,6 +78,10 @@ img {
     width: 160px;
 }
 
+img:hover {
+    border-color: #a96363;
+}
+
 @media (max-width: 550px) {
     img {
         width: 100px;
