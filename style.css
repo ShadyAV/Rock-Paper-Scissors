@@ -32,7 +32,7 @@ section {
     justify-content: center;
     align-items: center;
     gap: 36px;
-    height: 75vh;
+    height: 50vh;
     flex-wrap: wrap;
 }
 
@@ -48,6 +48,12 @@ section {
     flex-direction: column;
     align-items: center;
     gap: 30px;
+}
+
+@media (max-width: 550px) {
+    .player {
+        gap: 2px;
+    }
 }
 
 .playerHeader {
@@ -106,4 +112,17 @@ footer {
 .footerText {
     font-size: 24px;
     color: black;
+}
+
+.gameOverSection {
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 48px;
+}
+
+.playAgainButton {
+    font-size: 36px;
 }

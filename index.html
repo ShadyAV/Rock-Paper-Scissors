@@ -16,26 +16,31 @@
     <section>
         <div class="player">
             <div class="playerHeader">Player</div>
-            <div class="score">0</div>
+            <div class="score" id="humanScore">0</div>
             <div class="images">
-                <img src="rock.png" alt="rock">
-                <img src="paper.png" alt="paper">
-                <img src="scissors.png" alt="scissors">
+                <img src="rock.png" alt="rock" id="rock" class="button">
+                <img src="paper.png" alt="paper" id="paper" class="button">
+                <img src="scissors.png" alt="scissors" id="scissors" class="button">
             </div>
         </div>
         <div class="player">
             <div class="playerHeader">AI</div>
-            <div class="score">0</div>
+            <div class="score" id="compScore">0</div>
             <div class="images">
-                <img src="rock.png" alt="rock">
-                <img src="paper.png" alt="paper">
-                <img src="scissors.png" alt="scissors">
+                <img src="rock.png" alt="rock" id="comprock" class="compButton">
+                <img src="paper.png" alt="paper" id="comppaper" class="compButton">
+                <img src="scissors.png" alt="scissors" id="compscissors" class="compButton">
             </div>
         </div>
     </section>
+    <div class="gameOverSection">
+        <p id="gameOverText"></p>
+        <button class="playAgainButton" onclick="playAgain()">PLAY AGAIN</button>
+    </div>
     <footer>
         <div class="footerText">© avshady 2023</div>
     </footer>
 </body>
+<script src="index.js"></script>
 
 </html>
